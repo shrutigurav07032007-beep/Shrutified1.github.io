@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page apple</title>
+</head>
+<body style="background-color:lightblue;">
+   <a href="https://www.apple./in/" target="_blank">
+        <img src="Alogo.png" alt="Client Logo" width="100" height="60" title="Go to official site">
+    </a>
+     
+    <h1> <b>Contact us</b><h1>
+    <h4> How can we help you? </h4>
+    <form action="contact.html" method="post" autocomplete="on" enctype="multipart/form-data">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name" maxlength="30">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="example@email.com">
+        </p>
+        <p>
+            <label for="service">Service:</label>
+            <select name="service" id="service">
+                <option value="web">Digital appliances</option>
+                <option value="design">Airpods Service</option>
+                <option value="support">Professional Macbooks</option>
+            </select>
+        </p>
+        <p>
+            <label for="details">Details:</label><br>
+            <textarea name="details" id="details" rows="4" cols="40" placeholder="Brief requirements"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" name="subscribe" id="subscribe" checked>
+            <label for="subscribe">Subscribe to newsletter</label>
+        </p>
+        <p>
+            <input type="submit" value="Contact Us">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+
+
+</body>
+</html>
